@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Lucas Biéchy</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#interests">Interests</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Lucas Biéchy</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#interests" onclick="toggleMenu()">Interests</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img
+          src="./assets/profile.png"
+          alt="Lucas Biéchy Profile Picture"
+        />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Lucas Biéchy</h1>
+        <p class="section__text__p2">
+          Master 2 Mathematics & AI Student <br />
+          @ University of Paris-Saclay
+        </p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/BIECHY_CV_en.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="social-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/biechy'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My GitHub profile"
+            class="icon"
+            onclick="location.href='https://github.com/Biechy'"
+          />
+        </div>
+        <p>I'm looking for an internship/PhD in theorical online learning !</p>
+      </div>
+    </section>
+    <section id="about">
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="about-details-container">
+          <div class="text-container">
+            <p>
+              This year, I had the opportunity to delve into online learning,
+              with a particular focus on bandit problems and reinforcement
+              learning, and I would like to make it my research area. The
+              Master's program I pursued, established last year, ranks among the
+              best in France in the field of statistical learning. At the same
+              time, I am trying to develop my skills in the field of economics
+              because I am convinced that links between AI, physics and
+              economics would make it easier to solve certain problems.
+            </p>
+          </div>
+          <div class="about-containers">
+            <div class="details-container">
+              <h2>Studies</h2>
+              <div class="details-info-container">
+                <div class="details-info-date-container">
+                  <h4>2022-2024</h4>
+                  <img
+                    src="./assets/LogoParisSaclay.jpg"
+                    alt="logo icon"
+                    class="logo-institution"
+                  />
+                </div>
+                <div class="details-info-title-container">
+                  <h3>M.Sc Degree Mathematics & AI</h3>
+                  <p>2nd year shared with CentraleSupélec and Polytechnique</p>
+                </div>
+              </div>
+              <div class="details-info-container">
+                <div class="details-info-date-container">
+                  <h4>2019-2022</h4>
+                  <img
+                    src="./assets/LogoParisSaclay.jpg"
+                    alt="logo icon"
+                    class="logo-institution"
+                  />
+                </div>
+                <div class="details-info-title-container">
+                  <h3>B.Sc Degree Mathematics</h3>
+                  <h3>B.Sc Degree Physics</h3>
+                  <p>3rd year shared with ENS Paris-Saclay</p>
+                </div>
+              </div>
+            </div>
+            <div class="details-container">
+              <h2>Experiences</h2>
+              <div class="details-info-container">
+                <div class="details-info-date-container">
+                  <h4>2023 (6months)</h4>
+                  <img
+                    src="./assets/LogoEXOTRAIL.png"
+                    alt="logo icon"
+                    class="logo-institution"
+                  />
+                </div>
+                <div class="details-info-title-container">
+                  <h3>Data Engineer</h3>
+                  <p>supervised by Louis Petitjean</p>
+                </div>
+              </div>
+              <div class="details-info-container">
+                <div class="details-info-date-container">
+                  <h4>2022 (2months)</h4>
+                  <img
+                    src="./assets/LogoIMO.png"
+                    alt="logo icon"
+                    class="logo-institution"
+                  />
+                </div>
+                <div class="details-info-title-container">
+                  <h3>Research Assistant</h3>
+                  <p>supervised by Suzanne Varet</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <h1 class="title">Academic Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <h2 class="experience-sub-title project-title">Supervised Learning</h2>
+              <img
+                src="./assets/wine-quality.jpg"
+                alt="project-1"
+                class="project-img"
+              />
+              <p>Wine quality prediction and celestial object classification</p>
+              <div class="button-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/Biechy/Supervised-Learning-and-Data-Challenge/'"
+                >
+                  GitHub
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="window.open('./assets/paper-supervised.pdf')"
+                >
+                  Paper
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <h2 class="experience-sub-title project-title">Unsupervised Learning</h2>
+              <img
+                src="./assets/co-clustering.png"
+                alt="project-1"
+                class="project-img"
+              />
+              <p>Analysis of the paper Co-clustering contaminated data: a robust model-based approach</p>
+              <div class="button-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/Biechy/Critique-Article-Fibbi-2023'"
+                >
+                  GitHub
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="window.open('./assets/paper-unsupervised.pdf')"
+                >
+                  Paper
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <h2 class="experience-sub-title project-title">Reinforcement Learning</h2>
+              <p>Ongoing</p>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <h2 class="experience-sub-title project-title">Times Series</h2>
+              <img
+                src="./assets/times series.png"
+                alt="project-1"
+                class="project-img"
+              />
+              <p>Day ahead forecasting of electricity load from April 2020 to January 2021 in France.</p>
+              <div class="button-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/Biechy/load-forecasting-covid'"
+                >
+                  GitHub
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#interests'"
+      />
+    </section>
+    <section id="interests">
+      <h1 class="title">Interests</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/physics.png"
+                  alt="interest icon"
+                  class="icon-interests"
+                />
+                <div>
+                  <h3>Physics</h3>
+                  <p>
+                    Quantum physics <br />
+                    Statistical physics <br />
+                    Thermodynamics
+                  </p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/economics.png"
+                  alt="interest icon"
+                  class="icon-interests"
+                />
+                <div>
+                  <h3>Economics & Finance</h3>
+                  <p>
+                    Microeconomics <br />
+                    Macroeconomics
+                  </p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/web.png"
+                  alt="interest icon"
+                  class="icon-interests"
+                />
+                <div>
+                  <h3>Web Development</h3>
+                  <p>
+                    Typescript <br>
+                    React Native <br>
+                    Node JS
+                  </p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/cyber.png"
+                  alt="interest icon"
+                  class="icon-interests"
+                />
+                <div>
+                  <h3>Cyber Security & Cryptography</h3>
+                  <p>RootMe : 110 points</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+        <div class="about-containers">
+          <div class="details-container">
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/btc.png"
+                  alt="interest icon"
+                  class="icon-interests"
+                />
+                <div>
+                  <h3>Blockchain & Cryptocurrency</h3>
+                  <p>
+                    Technology <br />
+                    Societal challenges
+                  </p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/sew.png"
+                  alt="interest icon"
+                  class="icon-interests"
+                />
+                <div>
+                  <h3>Textil Design</h3>
+                  <p>
+                    Sewing <br />
+                    Screen printing <br />
+                  </p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/sport.png"
+                  alt="interest icon"
+                  class="icon-interests"
+                />
+                <div>
+                  <h3>Sport</h3>
+                  <p>
+                    American Football <br />
+                    Handball
+                  </p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p>
+            <a href="mailto:lucas.biechy@universite-paris-saclay.fr"
+              >lucas.biechy@universite-paris-saclay.fr</a
+            >
+          </p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p>
+            <a href="https://www.linkedin.com/in/biechy">LinkedIn</a>
+          </p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <p>Copyright &#169 2024 Lucas Biéchy. All Rigth Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
