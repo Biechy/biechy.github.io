@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkportfolio=self.webpackChunkportfolio||[]).push([[547],{5034:i=>{i.exports=JSON.parse('{"tags":[{"label":"Main Publication","permalink":"/biechy.github.io/publications/tags/main","description":"Main publications chosen by myself.","count":1}]}')}}]);
