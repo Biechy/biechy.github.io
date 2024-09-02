@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://biechy.github.io/biechy.github.io/publications</id>
+    <id>https://biechy.github.io/publications</id>
     <title>Lucas Biéchy Blog</title>
     <updated>2024-09-02T16:38:36.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://biechy.github.io/biechy.github.io/publications"/>
+    <link rel="alternate" href="https://biechy.github.io/publications"/>
     <subtitle>Lucas Biéchy Blog</subtitle>
-    <icon>https://biechy.github.io/biechy.github.io/img/favicon.ico</icon>
+    <icon>https://biechy.github.io/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Coming: Vehicule Trafic Forecasting in Taichung]]></title>
-        <id>https://biechy.github.io/biechy.github.io/publications/2024-08-publication-example</id>
-        <link href="https://biechy.github.io/biechy.github.io/publications/2024-08-publication-example"/>
+        <id>https://biechy.github.io/publications/2024-08-publication-example</id>
+        <link href="https://biechy.github.io/publications/2024-08-publication-example"/>
         <updated>2024-09-02T16:38:36.000Z</updated>
         <summary type="html"><![CDATA[Coming soon...]]></summary>
         <content type="html"><![CDATA[<p>Coming soon...</p>]]></content>
