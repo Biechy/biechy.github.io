@@ -1,0 +1,16 @@
+biechy:
+  name: Lucas Biéchy
+  title: Research Scientist @ Inria
+  url: https://biechy.github.io
+  image_url: https://github.com/biechy.png
+
+  page:
+    # customize the url of the author page at /blog/authors/<permalink>
+    permalink: "/all-biechy-articles"
+  socials:
+    Email: "mailto:lucas.biechy@universite-paris-saclay.fr"
+    # x: sebastienlorber
+    linkedin: biechy
+    github: biechy
+    # newsletter: https://thisweekinreact.com
+  description: Host of this website. I am a PhD student at Inria working on NLP for privacy. I am interest in the links between machine learning, physics, economics and more.
