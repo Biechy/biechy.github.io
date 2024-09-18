@@ -14,6 +14,7 @@ import {
   ProjectsList,
   Stack,
 } from "../components/PagesFeatures";
+import useBaseUrl from "@docusaurus/useBaseUrl";
 
 export default function Resume() {
   return (
@@ -26,7 +27,7 @@ export default function Resume() {
           </div>
           <div className="hidden sm:flex w-1/3 justify-center items-center">
             <img
-              src="./img/memojie/study.png"
+              src={useBaseUrl("img/memojie/study.png")}
               alt="Profile Picture"
               className="h-48"
             />
@@ -35,7 +36,7 @@ export default function Resume() {
         <div className="flex w-3/4">
           <div className="hidden sm:flex w-1/3 justify-center items-center">
             <img
-              src="./img/memojie/work.png"
+              src={useBaseUrl("img/memojie/work.png")}
               alt="Profile Picture"
               className="h-48"
             />

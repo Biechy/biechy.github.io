@@ -3,6 +3,7 @@ import ThemedImage from "@theme/ThemedImage";
 
 import { Project } from "../types";
 import { IconTechno, ScrollHorizontal } from "../Helpers";
+import useBaseUrl from "@docusaurus/useBaseUrl";
 
 const ProjectCard: React.FC<Project> = ({
   name,
@@ -84,8 +85,8 @@ const ProjectCard: React.FC<Project> = ({
       </div>
       <ThemedImage
         sources={{
-          light: img,
-          dark: img.replace(".webp", "-dark.webp"),
+          light: useBaseUrl(img),
+          dark: useBaseUrl(img.replace(".webp", "-dark.webp")),
         }}
         alt="project page"
         className="max-w-0 sm:max-w-xs absolute -bottom-10 -right-40 xl:-right-20 shadow-xl rounded-t-xl  transition group-hover:-translate-x-3 group-hover:translate-y-3 group-hover:-rotate-2"

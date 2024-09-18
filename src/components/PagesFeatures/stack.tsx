@@ -4,6 +4,7 @@ import { Techno } from "../types";
 import { technos } from "@site/src/data";
 
 import { IconTechno, Ring, ButtonGroup, ScrollHorizontal } from "../Helpers";
+import useBaseUrl from "@docusaurus/useBaseUrl";
 
 const randomNumbers = [
   Math.round(Math.random()),
@@ -49,7 +50,7 @@ const Stack: React.FC<Techno[]> = () => {
           sizeIcon={sizeIcon}
         />
         <img
-          src="./img/memojie/computer.png"
+          src={useBaseUrl("img/memojie/computer.png")}
           className="absolute w-24 aspect-square rounded-full cursor-pointer mb-10"
           title="Me ! :)"
         />

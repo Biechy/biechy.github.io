@@ -1,4 +1,5 @@
 import React from "react";
+import useBaseUrl from "@docusaurus/useBaseUrl";
 
 import { technos } from "@site/static/img/technos/technos";
 
@@ -19,9 +20,10 @@ const IconTechno: React.FC<IconTechnoProps> = ({ name, size, clickable }) => {
       }
     >
       <img
-        src={techno.png}
+        src={useBaseUrl(techno.png)}
         alt={name}
-        className="max-w-8 max-h-max-w-8 object-contain"
+        style={{ maxHeight: size, maxWidth: size }}
+        className="object-contain"
       />
     </div>
   );

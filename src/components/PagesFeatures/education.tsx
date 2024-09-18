@@ -2,6 +2,7 @@ import React from "react";
 import ThemedImage from "@theme/ThemedImage";
 
 import { Education } from "../types";
+import useBaseUrl from "@docusaurus/useBaseUrl";
 
 const EducationCard: React.FC<Education> = ({
   degree,
@@ -35,8 +36,8 @@ const EducationCard: React.FC<Education> = ({
               <ThemedImage
                 className="w-12 rounded-sm"
                 sources={{
-                  light: school.logo,
-                  dark: school.logo.replace(".png", "-dark.png"),
+                  light: useBaseUrl(school.logo),
+                  dark: useBaseUrl(school.logo.replace(".png", "-dark.png")),
                 }}
                 alt={school.name}
               />

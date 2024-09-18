@@ -2,6 +2,7 @@ import React from "react";
 import ThemedImage from "@theme/ThemedImage";
 
 import { Experience } from "../types";
+import useBaseUrl from "@docusaurus/useBaseUrl";
 
 const ExperienceCard: React.FC<Experience> = ({
   title,
@@ -31,8 +32,8 @@ const ExperienceCard: React.FC<Experience> = ({
             <ThemedImage
               className="max-w-12 rounded-sm"
               sources={{
-                light: company.logo,
-                dark: company.logo.replace(".png", "-dark.png"),
+                light: useBaseUrl(company.logo),
+                dark: useBaseUrl(company.logo.replace(".png", "-dark.png")),
               }}
               alt={company.name}
             />

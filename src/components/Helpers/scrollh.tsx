@@ -63,7 +63,7 @@ export const ScrollHorizontal: React.FC<React.ReactNode> = ({
         onMouseUp={handleMouseUp}
         onMouseLeave={handleMouseUp}
       >
-        <div className="flex gap-4 mr-24 sm:mr-32">{children}</div>
+        <div className="flex gap-4 mr-28 sm:mr-32">{children}</div>
         <div className="flex right-0 absolute w-24 sm:w-36 h-full  bg-gradient-to-r from-transparent to-background-color dark:to-background-color-dark  group-hover:to-neutral-50 dark:group-hover:to-neutral-900 " />
       </div>
     </div>

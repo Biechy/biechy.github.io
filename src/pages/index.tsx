@@ -3,6 +3,7 @@ import Markdown from "react-markdown";
 
 import { NewsList } from "../components/PagesFeatures";
 import { news } from "@site/src/data";
+import useBaseUrl from "@docusaurus/useBaseUrl";
 
 export default function Home(): JSX.Element {
   return (
@@ -28,7 +29,7 @@ export default function Home(): JSX.Element {
           </div>
           <div className="hidden sm:flex w-1/3 justify-center items-center">
             <img
-              src="./img/memojie/hey.png"
+              src={useBaseUrl("img/memojie/hey.png")}
               alt="Profile Picture"
               className="h-48"
             />
@@ -37,7 +38,7 @@ export default function Home(): JSX.Element {
         <div className="flex w-3/4">
           <div className="hidden sm:flex w-1/3 justify-center items-center">
             <img
-              src="./img/memojie/news.png"
+              src={useBaseUrl("img/memojie/news.png")}
               alt="Profile Picture"
               className="h-48"
             />
