@@ -1,7 +1,7 @@
 import React from "react";
 
 import { Publication } from "../types";
-import { letters } from "@site/static/letters";
+import { letters } from "@site/static/img/letters/letters";
 
 const PublicationCard: React.FC<Publication> = ({
   title,
@@ -46,8 +46,8 @@ const PublicationCard: React.FC<Publication> = ({
           Journal: {journal}
         </p>
       )}
-      <div
-        dangerouslySetInnerHTML={{ __html: letter_wanted.svg }}
+      <img
+        src={letter_wanted.png}
         className="absolute flex -right-4 -bottom-2 h-1/2 -rotate-6 transition group-hover:-translate-x-1 group-hover:translate-y-3 group-hover:-rotate-12"
       />
       <p className="absolute text-xs right-2 top-2">{date}</p>

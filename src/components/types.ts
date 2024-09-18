@@ -43,7 +43,7 @@ export interface Techno {
   link: string;
   category: "AI" | "software";
   level: "expert" | "advanced" | "intermediate" | "none";
-  svg: string;
+  png: string;
 }
 
 export interface Publication {

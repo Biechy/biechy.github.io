@@ -1,7 +1,7 @@
 import React from "react";
 
 import TechnoIcon from "./icontechno";
-import { technos } from "@site/src/data/technos";
+import { technos } from "@site/static/img/technos/technos";
 
 interface RingProps {
   size: number;
