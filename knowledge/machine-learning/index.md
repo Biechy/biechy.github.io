@@ -9,7 +9,7 @@ import DocCardList from "@theme/DocCardList";
 
 # Machine Learning
 
-FAIRE PAR TYPE DE DONNEES POUR STATISTICAL LEARNING
+FAIRE PAR TYPE DE DONNEES POUR STATISTICAL LEARNING ET PAR DIFFERENCE PARAMETRIQUE ET NON PARAMETRIQUE
 
 et faire les cas particuliers (missing values + high dimensions)
 
