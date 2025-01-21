@@ -10,19 +10,19 @@ Welcome ! I store here the most valuable knowledge I've acquired and I'm glad yo
 
 My pursuit of knowledge focuses on five core disciplines:
 
-- `Mathematics`: Enhancing logic and emotional control
-- `Physics`: Understanding nature's workings and questioning existence
+- `Mathematics`: Enhancing logic
+- `Physics`: Understanding nature's workings
 - `Economics` & `Finance`: Grasping societal connections in our DAMN capitalist world
 - `Computer Science`: Mastering humanity's current main tool
 - `Machine Learning`: Preparing for tomorrow's revolution
 
 This **lifelong project** builds on my existing licence degrees in physics and mathematics, aiming to get the same level as a PhD in machine learning, a master's in physics and finance, and a bachelor's in economics and computer science.
 
-The secret to mastering all these fields? Consistence and recognizing their interconnectedness. Each discipline complements the others, creating an "easy" holistic understanding of our world. Stay strong !
+The secret to mastering all these fields? Consistence and recognizing their interconnectedness. Each discipline complements the others, creating an "easy" holistic understanding of our world. Stay strong and relax 😮‍💨 !
 
-However, knowledge alone isn't enough. To truly excel, one must understand humanity through `sociology`, `philosophy`, and `psychology`. These fields help us connect with and influence others, making expertise as effective as it is useless... (If you don't believe me, ask a professional poker player or a sales manager.)
+However, knowledge alone isn't enough. To truly excel, one must understand humanity through `sociology`, `philosophy`, and `psychology`. These fields help us connect with and influence others, making expertise as effective as it is useless...
 
-And also don't forget to shower and exercise.
+(And also don't forget to shower and exercise during this trip 😭)
 
 ---
 

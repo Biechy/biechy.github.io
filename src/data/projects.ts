@@ -13,7 +13,7 @@ export const projects: Project[] = [
     },
     technos: ["React", "TailwindCSS", "TypeScript"],
     link: "https://biechy.github.io/",
-    repo_link: "https://github.com/biechy/portfolio",
+    repo_link: "https://github.com/Biechy/biechy.github.io",
     img: "./img/projects/portfolio.webp",
   },
 ];
