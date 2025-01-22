@@ -112,7 +112,7 @@ const config: Config = {
         //  position: "right",
         //},
         {
-          href: "mailto:lucas.biechy@universite-paris-saclay.fr",
+          href: "mailto:lucas.biechy@inria.fr",
           position: "right",
           className: "header-email-link",
           "aria-label": "Email",
