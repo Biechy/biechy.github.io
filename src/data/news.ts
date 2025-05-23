@@ -1,6 +1,18 @@
 import { News } from "@site/src/components/types";
 
 export const news: News[] = [
+    {
+    description: "I was at the iPoP workshop about Bridging AI Development and Governance.",
+    category: "career",
+    date: "04/2025",
+    emoji: "📜",
+  },
+  {
+    description: "I was at the ELLIS/ELSA workshop about privacy and machine learning.",
+    category: "career",
+    date: "03/2025",
+    emoji: "🇮🇹",
+  },
   {
     description: "I start my PhD at Inria and Paris-Saclay as NLP Researcher.",
     category: "career",
