@@ -8,7 +8,7 @@ biechy:
     # customize the url of the author page at /blog/authors/<permalink>
     permalink: "/all-biechy-articles"
   socials:
-    Email: "mailto:lucas.biechy@universite-paris-saclay.fr"
+    Email: "mailto:lucas.biechy@inria.fr"
     # x: sebastienlorber
     linkedin: biechy
     github: biechy
