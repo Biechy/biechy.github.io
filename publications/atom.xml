@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://biechy.github.io/publications</id>
-    <title>Lucas Biéchy Blog</title>
+    <title>Lucas Biechy Blog</title>
     <updated>2024-09-02T16:38:36.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://biechy.github.io/publications"/>
-    <subtitle>Lucas Biéchy Blog</subtitle>
+    <subtitle>Lucas Biechy Blog</subtitle>
     <icon>https://biechy.github.io/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Coming: Vehicule Trafic Forecasting in Taichung]]></title>
