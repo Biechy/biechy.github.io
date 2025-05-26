@@ -6,7 +6,7 @@ import DocCardList from "@theme/DocCardList";
 
 # Welcome to my Mental Palace
 
-Welcome ! I store here the most valuable knowledge I've acquired and I'm glad you're interested in it. While I aim to present this information very pedagogically, my primary goal is in fact selfish: to remember and organize my learnings from life's grand school... think of this palace more as course notes.
+Welcome ! I store here the most valuable knowledge I've acquired and I'm glad you're interested in it. While I aim to present this information very pedagogically, my primary goal is in fact selfish: to remember and organize my learnings from life's grand school... think of this palace more as notes.
 
 My pursuit of knowledge focuses on five core disciplines:
 
@@ -16,13 +16,17 @@ My pursuit of knowledge focuses on five core disciplines:
 - `Computer Science`: Mastering humanity's current main tool
 - `Machine Learning`: Preparing for tomorrow's revolution
 
-This **lifelong project** builds on my existing licence degrees in physics and mathematics, aiming to get the same level as a PhD in machine learning, a master's in physics and finance, and a bachelor's in economics and computer science.
+This is a lifelong project, built on my degrees in physics and mathematics. My goal? To reach the equivalent of:
 
-The secret to mastering all these fields? Consistence and recognizing their interconnectedness. Each discipline complements the others, creating an "easy" holistic understanding of our world. Stay strong and relax 😮‍💨 !
+- a PhD in machine learning
+- a master’s in physics and finance
+- a bachelor’s in economics and computer science
 
-However, knowledge alone isn't enough. To truly excel, one must understand humanity through `sociology`, `philosophy`, and `psychology`. These fields help us connect with and influence others, making expertise as effective as it is useless...
+Yeah… I'll not achieve this 😭.
 
-(And also don't forget to shower and exercise during this trip 😭)
+But the beauty is in the journey: consistency, patience and seeing the connections between fields. Stay strong, don't cry, breathe deep 😮‍💨, and keep going.
+
+I also like `sociology`, `philosophy`, and `psychology`. So maybe you will see some notes about these fields. 
 
 ---
 
