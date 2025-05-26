@@ -5,9 +5,9 @@ import remarkMath from "remark-math";
 import rehypeKatex from "rehype-katex";
 
 const config: Config = {
-  title: "Lucas Biéchy",
+  title: "Lucas Biechy",
   titleDelimiter: "🐉",
-  tagline: "Lucas Biéchy's personal website",
+  tagline: "Lucas Biechy's personal website",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
