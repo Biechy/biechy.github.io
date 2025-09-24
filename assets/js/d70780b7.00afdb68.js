@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkportfolio=self.webpackChunkportfolio||[]).push([[1302],{5808:e=>{e.exports=JSON.parse('{"tags":[{"label":"Selected Publication","permalink":"/publications/tags/main","description":"Main publications chosen by myself.","count":1}]}')}}]);
