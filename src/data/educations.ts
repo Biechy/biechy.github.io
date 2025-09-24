@@ -19,8 +19,8 @@ export const educations: Education[] = [
     },
     location: "Paris, France",
     description:
-      "Courses in computer science, artificial intelligence and developements.",
-    tags: ["Machine Learning", "Deep Learning", "Computer Science", "MLOps"],
+      "Advisors: Nicolas Anciaux, Cédric Eichler, Adrien Boiret",
+    tags: ["LLMs", "NLP", "Privacy", "Red Teaming"],
     honors: "none",
   },
   {
@@ -46,7 +46,7 @@ export const educations: Education[] = [
     },
     location: "Orsay, France",
     description:
-      "One of the best programs in France for mathematics and artificial intelligence. Customisable program of shared courses with Polytechnique (Stat&ML) and ENS Paris-Saclay (MVA).",
+      "Joint program with CentraleSupélec and École Polytechnique.",
     tags: ["Machine Learning", "Statistics", "Optimization", "Probability"],
     honors: "High Honors",
   },
@@ -68,7 +68,7 @@ export const educations: Education[] = [
     },
     location: "Orsay, France",
     description:
-      "Best university program in France for mathematics and physics. Physics courses are shared with ENS Paris-Saclay.",
+      "Physics track joint with École Normale Supérieure Paris-Saclay.",
     tags: ["Mathematics", "Theorical Physics", "Engineering"],
     honors: "Honors",
   },

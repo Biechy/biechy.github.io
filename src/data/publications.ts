@@ -4,9 +4,9 @@ import { Publication } from "../components/types";
 
 export const publications: Publication[] = [
   {
-    title: "Vehicule Trafic Forecasting in Taichung",
+    title: "A Lightweight Recurrent Architecture for Robust Urban Traffic Forecasting With Missing Data",
     description: {
-      en: "In coming...",
+      en: "We introduce an enhanced recurrent models : Extended Gated Recurrent Unit (xGRU) which incorporate exponential gating mechanisms and matrix-valued memory updates inspired by xLSTM.",
     },
     authors: [
       {
@@ -14,8 +14,8 @@ export const publications: Publication[] = [
         permalink: "/publications/authors/all-biechy-articles",
       },
     ],
-    date: "2021-01-01",
-    link: "https://github.com",
+    date: "2025-08",
+    link: "https://ieeexplore.ieee.org/document/11162586",
     tags: ["DL"],
     letter: "gamma",
   },

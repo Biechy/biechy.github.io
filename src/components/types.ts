@@ -34,6 +34,9 @@ export interface Techno {
     | "TypeScript"
     | "Python"
     | "R"
+    | "Supabase"
+    | "Hugging Face"
+    | "TanStack"
     | "PostgreSQL"
     | "MongoDB"
     | "Prisma"
@@ -105,6 +108,5 @@ export interface Experience {
   };
   location: string;
   description: string;
-  results?: string;
   tags: string[];
 }

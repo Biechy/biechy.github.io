@@ -17,7 +17,6 @@ const ExperiencesList: React.FC<Experience[]> = ({ experiences }) => {
           date={experience.date}
           location={experience.location}
           description={experience.description}
-          results={experience.results}
           tags={experience.tags}
         />
       ))}

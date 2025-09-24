@@ -10,7 +10,6 @@ const ExperienceCard: React.FC<Experience> = ({
   date,
   location,
   description,
-  results,
   tags,
 }) => {
   return (
@@ -49,10 +48,7 @@ const ExperienceCard: React.FC<Experience> = ({
         </div>
       </div>
       <p className="text-xs text-neutral-600 dark:text-neutral-400 w-full">
-        Mission: {description}
-      </p>
-      <p className="text-xs text-neutral-600 dark:text-neutral-400 w-full">
-        {results && `Results: ${results}`}
+        {description}
       </p>
       <div className="flex flex-row flex-wrap items-center gap-2">
         {tags &&

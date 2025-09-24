@@ -14,16 +14,8 @@ export const experiences: Experience[] = [
       information: null,
     },
     location: "Palaiseau, France",
-    description: "Create a privacy enhancement tool for content using LLMs.",
-    tags: [
-      "Machine Learning",
-      "Deep Learning",
-      "NLP",
-      "Metric creation",
-      "LLM",
-      "Fine-tuning",
-      "Privacy",
-    ],
+    description: "Research on the satenization of textual data using inference attributes from large language models.",
+    tags: ["LLMs", "NLP", "Privacy", "Red Teaming"],
   },
   {
     title: "AI Researcher (internship)",
@@ -39,17 +31,10 @@ export const experiences: Experience[] = [
     },
     location: "Hsinchu, Taiwan",
     description:
-      "Create and implement deep learning networks to improve traffic forcasting of Taichung.",
-    results:
-      "Improved traffic forcasting accuracy by two. Creation of a new model state of the art named xGRU (inspired by xLSTM and GRU). Paper in progress...",
+      "Designed and implemented xGRU, inspired by xLSTM, doubling traffic forecasting accuracy and halving model parameters.",
     tags: [
-      "Research",
       "Time Series Forecasting",
       "Deep Learning",
-      "xLSTM",
-      "xGRU",
-      "Python",
-      "PyTorch",
     ],
   },
   {
@@ -66,9 +51,7 @@ export const experiences: Experience[] = [
     },
     location: "Massy, France",
     description:
-      "Create and implement a data processing pipeline, from test bench trials to computer analysis on employees' computers.",
-    results:
-      "Every 15 minutes, the data is processed, stored without duplication in two separate databases (production or development) and can be loaded onto IT tools. Data can be processed retrospectively.",
-    tags: ["Data", "Pipeline", "Docker", "Python", "MongoDB", "Apache Nifi"],
+      "Designed and built entirely from scratch a full data pipeline for physics experiments, from raw data to automated analysis in minutes.",
+    tags: ["Data", "Pipeline", "MLOps"],
   },
 ];

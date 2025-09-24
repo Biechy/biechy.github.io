@@ -1,7 +1,31 @@
 import { News } from "@site/src/components/types";
 
 export const news: News[] = [
-    {
+  {
+    description: "My (first) paper for traffic forecasting have been accepted at IEEE-OJITS (Q1) ! ",
+    category: "publications",
+    date: "09/2025",
+    emoji: "🎉",
+  },
+  {
+    description: "I was at the journées scientifiques INESIA.",
+    category: "career",
+    date: "07/2025",
+    emoji: "🧑‍🏫",
+  },
+  {
+    description: "I was at the Journée de recherche sur la vie privée of the CNIL.",
+    category: "career",
+    date: "07/2025",
+    emoji: "🧑‍⚖️",
+  },
+  {
+    description: "I was at APVP 2025.",
+    category: "career",
+    date: "06/2025",
+    emoji: "🚈",
+  },
+  {
     description: "I was at the iPoP workshop about Bridging AI Development and Governance.",
     category: "career",
     date: "04/2025",
