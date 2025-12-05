@@ -10,4 +10,6 @@ Although often confused with Artificial Intelligence (AI) by the general public,
 
 In this journey through the mental palace, we will delve deeply into both SL and DL. Before we do, as scientific researchers, **it is crucial to begin with an introductory chapter on statistical modeling** because ML rely on fundamental statistical concepts, and a solid understanding of these foundations is essential to grasp the nuances of modern techniques.
 
+In addition, many ML algorithms rely on optimization algorithms, so feel free to consult the corresponding chapter.
+
 <DocCardList/>

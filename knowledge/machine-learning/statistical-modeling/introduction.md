@@ -8,7 +8,6 @@ import TabItem from '@theme/TabItem';
 
 # Introduction
 
-
 :::info
 
 Statistical learning is based on "well-formed"statistical models. This makes it easy to define likelihood.
@@ -28,7 +27,7 @@ If you don't understand anything, that's okay. You just need to remember that th
 
 :::note
 
-    A data $x$ is a realization of the random variable $X$.
+    A sample $x$ is a realization of the random variable $X$.
 
 :::
 
@@ -87,7 +86,8 @@ It may seem complicated at first, but reassuringly it's not. Let's look at an ex
 <div class="tab-content" data-type="proof">
     The number of coin is $m$ so we have $n=m$. Each coin can get the value 0 or 1, so the set is $\mathcal X = \{0,1\}$ and the $\sigma$-algebra is $\mathcal A = \sigma(\{0,1\})$ of the measurable space. The law of each coin is a bernoulli noted $\mathcal B(\theta)$ and because we don't know if the coins are balanced, $\theta$ can be between $0$ and $1$, so $\Theta=[0,1]$. So finaly, $\mathcal M = (\{0,1\}^m, \sigma(\{0,1\})^m, (\mathcal B(\theta)^m)_{\theta \in [0.1]})$
 
-    Note: Maybe you're frustrated because you haven't found Bernouilli's law, that's normal. In statistical modeling, the family of laws often comes from the hat like that. It's with experience and by analyzing throws that we can get this law reflex.  That's why we talk about modeling and not reproduction. 
+    Note: Maybe you're frustrated because you haven't found Bernouilli's law, that's normal. In statistical modeling, the family of laws often comes from the hat like that. It's with experience and by analyzing throws that we can get this law reflex.  That's why we talk about modeling and not reproduction.
+
 </div>
 </TabItem>
 </Tabs>
@@ -97,8 +97,6 @@ It may seem complicated at first, but reassuringly it's not. Let's look at an ex
 If the distribution is i.i.d, we can use the direct notation $\mathcal M$ is the tuple $\mathcal M := ( \mathcal X, \mathcal A, \mathbb P_{\theta\in \Theta})$
 
 :::
-
-
 
 <Tabs>
 <TabItem value="parametric model" label="Parametric model" attributes={{type: "definition"}}>
@@ -127,7 +125,6 @@ If the distribution is i.i.d, we can use the direct notation $\mathcal M$ is the
 
 This assumption is essential for a good machine learning model and is **often forgotten by data scientists**. I hope the example below speaks for itself.
 
-
 <Tabs>
 <TabItem value="identifiability example 1" label="Example 1" attributes={{type: "exercise"}}>
 <div class="tab-content" data-type="exercise">
@@ -151,7 +148,27 @@ This assumption is essential for a good machine learning model and is **often fo
 </div>
 </TabItem>
 </Tabs>
-Again, if you didn't understand everything: that's ok. Just remember that in statistics, we precise that the family of laws is not a set of horrible function with the "domination".
+Again, if you didn't understand everything: that's ok. Just remember that in statistics, we precise that the family of laws is not a set of horrible function with the "domination". We can have a density thanks to that !
+
+<Tabs>
+<TabItem value="regular" label="Regular model" attributes={{type: "definition"}}>
+<div class="tab-content" data-type="definition">
+A model is regular when:
+1. $supp(f(\cdot; \theta))$ is independent of $\theta$
+2. $f(\cdot; \theta) \in \mathcal C^2$
+3. $\int f(x;\theta)d\nu(x)$ is twice derivable and we can switch derivable and integral
+</div>
+</TabItem>
+</Tabs>
+Idem, just to be sure that the law family is chill !
+
+<Tabs>
+<TabItem value="uniform" label="Example" attributes={{type: "exercise"}}>
+<div class="tab-content" data-type="exercise">
+    The model with a family $\mathcal P = \mathcal U(0, \theta)$ is not regular because the first condition is not fit.
+</div>
+</TabItem>
+</Tabs>
 
 ## Likelihood
 
@@ -164,6 +181,7 @@ In a parametric dominated model with the realizations $x_1, ...,x_n$, the likeli
    $
 
 For a i.i.d sample, $L(\theta;x_1, ..., x_n) = \prod^n_{i=1} f_\theta(x_i)$
+
 </div>
 </TabItem>
 </Tabs>
@@ -183,10 +201,10 @@ For a i.i.d sample, $L(\theta;x_1, ..., x_n) = \prod^n_{i=1} f_\theta(x_i)$
 
 :::note
 
-For simplicity for i.i.d sample, we often use $\ell_\theta:=\log f_\theta$ with the log-likelihood $\log L(\theta; x_1,...x_n)=\sum^n_{i=1} f_\theta(x_i)$
+For simplicity for i.i.d sample, we often use the log-likelihood $\ell_\theta:=\log L(\theta; x_1,...x_n)=\sum^n_{i=1} \log f_\theta(x_i)$
 
 :::
 
-It's important to understand what likelihood is, and how it differs from classical probability. It's the same function, but not from the same point of view. 
+It's important to understand what likelihood is, and how it differs from classical probability. It's the same function, but not from the same point of view.
 For probabilities, we know the framework in which we're doing the experiment, for example, I know that my coin is fair and I can calculate the probabilities from there (the density is a function of $x$, the expected result).
 In the case of likelihood, we don't know the precise framework, but knowing the results, we try to assign a probability of having these results for each possible framework (the density is a function of $\theta$, the setting parameter).
